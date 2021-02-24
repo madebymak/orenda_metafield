@@ -11,7 +11,7 @@ import { updateOrder } from './controllers/helpers.js';
  */
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 /**
  *  App Configuration
